@@ -1,0 +1,172 @@
+body{
+    font-size: 12px;
+    background-color: rgb(248, 214, 241);
+}
+
+.caixa-banner{
+    background: url(../img/capa.png);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: white;
+ 
+    justify-content: space-around;
+   
+}
+
+.titulo01{
+    font-size: 2rem;
+    text-shadow: 3px 3px black;
+}
+
+.subtitulo1{
+    font-size: 28px;
+    text-shadow: 3px 3px black;
+}
+
+.link-sobre{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #7e459b;
+    text-shadow: 3px 3px white;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px ;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.link-cv{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #7e459b;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+
+.nome{
+    font-weight: bold;
+    color: #7e459b;
+}
+
+.eu{
+    font-weight: bold;
+    color: #7e459b;
+}
+.lado1{
+    width: 30%;
+    font-size: 25px;
+}
+
+.margin-texto{
+    margin-bottom: 40px;
+}
+
+.lado2 h3{
+    width: 35%;
+    color: #7e459b;
+}
+
+h3{
+    font-size: 25px;
+}
+
+ul{
+    line-height: 1.8;
+}
+
+.titulo-sobre{
+    margin-left: 100px;
+    margin-bottom: 8PX;
+    font-size: 25px;
+    color: #7e459b;
+    text-align: center;
+}
+
+.caixa-sobre{
+    margin-top: 50px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caixa-links{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista li{
+    font-size: 25px;
+    list-style: none;
+}
+
+.lista{
+    background-color:bisque;
+    padding: 38px;
+    border-radius: 25px;
+}
+
+hr{
+    opacity: 40%;
+
+}
+
+
+.links{
+    background-color:#b79cc5; 
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+@media (max-width: 710px){
+    .caixa-sobre{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lado1{
+        width:80%;
+        text-align: justify;
+    }
+
+    .lado2{
+        width: 80%;
+    }
+
+    .titulo-sobre{
+        margin: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .links{
+        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .icone{
+        margin-top: 40px;
+
+    }
+}
